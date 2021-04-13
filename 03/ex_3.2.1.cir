@@ -1,0 +1,6 @@
+Resistor divider
+VIN	1	0	1volt
+R1	1	2	3ohm
+R2	2	0	1ohm
+.SENS V(2)
+.END

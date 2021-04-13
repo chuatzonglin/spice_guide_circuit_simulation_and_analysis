@@ -1,0 +1,9 @@
+Sensitivity analysis of D=A Converter
+Vmsb	1	0	0	;most-significant-bit input
+Vlsb	2	0	0	;least-significant-bit input
+R1	1	3	20K
+R2	2	4	20K
+R3	3	4	10K
+R4	4	0	20K
+.SENS v(3)
+.END

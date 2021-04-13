@@ -1,0 +1,143 @@
+
+Circuit: resistor bridge
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+	Node                                  Voltage
+	----                                  -------
+	----	-------
+	V(23)                            1.000000e+01
+	V(30)                            1.000000e+01
+	V(33)                            1.000000e+01
+	V(20)                            1.000000e+01
+	V(22)                            1.000000e+01
+	V(3)                             1.000000e+01
+	V(31)                            1.000000e+01
+	V(2)                             1.000000e+01
+	V(21)                            1.000000e+01
+	V(1)                             1.000000e+01
+
+	Source	Current
+	------	-------
+
+	vin#branch                       -1.77636e-15
+	v1#branch                        8.881784e-16
+	v2#branch                        1.776357e-15
+	v3#branch                        8.881784e-16
+	v4#branch                        -3.55271e-15
+	v5#branch                        0.000000e+00
+
+ Capacitor models (Fixed capacitor)
+      model                     C
+
+        cap                     0
+         cj                     0
+       cjsw                     0
+       defw                 1e-05
+       defl                     0
+     narrow                     0
+      short                     0
+        del                     0
+        tc1                     0
+        tc2                     0
+         di                     0
+      thick                     0
+     bv_max                 1e+99
+
+ Resistor models (Simple linear resistor)
+      model                     R
+
+        rsh                     0
+     narrow                     0
+      short                     0
+        tc1                     0
+        tc2                     0
+        tce                     0
+       defw                 1e-05
+          l                 1e-05
+         kf                     0
+         af                     0
+          r                     0
+     bv_max                 1e+99
+         lf                     1
+         wf                     1
+         ef                     1
+
+ Capacitor: Fixed capacitor
+     device                    c4                    c3
+      model                     C                     C
+capacitance                 3e-11                 3e-11
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+          i                     0                     0
+          p                     0                     0
+
+ Resistor: Simple linear resistor
+     device                    r5                    r4                    r3
+      model                     R                     R                     R
+ resistance                     2                     2                     1
+         ac                     2                     2                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device                    r2                    r1
+      model                     R                     R
+ resistance                     1                     2
+         ac                     1                     2
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           1.77636e-15           8.88178e-16
+          p           3.15544e-30           1.57772e-30
+
+ Vsource: Independent voltage source
+     device                    v5                    v4                    v3
+         dc                     0                     0                     0
+      acmag                     0                     0                     0
+      pulse         -         -         -
+        sin         -         -         -
+        exp         -         -         -
+        pwl         -         -         -
+       sffm         -         -         -
+         am         -         -         -
+    trnoise         -         -         -
+   trrandom         -         -         -
+          i                     0          -3.55271e-15           8.88178e-16
+          p                     0                    -0                     0
+
+ Vsource: Independent voltage source
+     device                    v2                    v1                   vin
+         dc                     0                     0                    10
+      acmag                     0                     0                     0
+      pulse         -         -         -
+        sin         -         -         -
+        exp         -         -         -
+        pwl         -         -         -
+       sffm         -         -         -
+         am         -         -         -
+    trnoise         -         -         -
+   trrandom         -         -         -
+          i           1.77636e-15           8.88178e-16          -1.77636e-15
+          p                     0                     0          -1.77636e-14
+
+
+Total analysis time (seconds) = 0.001
+
+Total elapsed time (seconds) = 0.011 
+
+Total DRAM available = 2973.348 MB.
+DRAM currently available = 2352.277 MB.
+Maximum ngspice program size =   15.906 MB.
+Current ngspice program size =    9.559 MB.
+
+Shared ngspice pages =    8.160 MB.
+Text (code) pages =    5.105 MB.
+Stack = 0 bytes.
+Library pages =    1.992 MB.
+

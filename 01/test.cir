@@ -1,0 +1,6 @@
+* Resistor dividor circuit
+.OP
+VIN        1       0  3.0volt
+R1         1       2  1.0ohm
+R2         2       0  2.0ohm
+.END

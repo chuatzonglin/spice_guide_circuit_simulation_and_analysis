@@ -1,0 +1,6 @@
+* Resistor dividor circuit
+.OP
+IIN	0	1	1.0A
+R1         1       2  1.0ohm
+R2         2       0  2.0ohm
+.END

@@ -2,5 +2,6 @@ Resistor divider
 VIN	1	0	2volt
 R1	1	2	4ohm
 R2	2	0	1ohm
-.SENS V(2)
+.SENS V(2) AC DEC 1 1 10
+.OP
 .END

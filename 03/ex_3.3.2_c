@@ -1,0 +1,39 @@
+
+Compatibility modes selected: ps
+
+
+Circuit: sensitivity analysis of d=a converter
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+                     sensitivity analysis of d=a converter
+                     Sensitivity Analysis  Fri Apr 16 10:00:13  2021
+--------------------------------------------------------------------------------
+Index   r1              r2              r3              r4              
+--------------------------------------------------------------------------------
+0	6.249994e-06	-7.81249e-06	-6.24999e-06	4.687495e-06	
+
+                     sensitivity analysis of d=a converter
+                     Sensitivity Analysis  Fri Apr 16 10:00:13  2021
+--------------------------------------------------------------------------------
+Index   vmsb            vlsb            
+--------------------------------------------------------------------------------
+0	5.000000e-01	2.500000e-01	
+
+
+Total analysis time (seconds) = 0
+
+Total elapsed time (seconds) = 0.004 
+
+Total DRAM available = 1982.750 MB.
+DRAM currently available =  700.637 MB.
+Maximum ngspice program size =   27.535 MB.
+Current ngspice program size =   11.473 MB.
+
+Shared ngspice pages =    9.859 MB.
+Text (code) pages =    5.207 MB.
+Stack = 0 bytes.
+Library pages =    2.098 MB.
+

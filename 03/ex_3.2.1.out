@@ -1,0 +1,32 @@
+
+Compatibility modes selected: ps
+
+
+Circuit: resistor divider
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+No. of Data Rows : 1
+                                resistor divider
+                                Sensitivity Analysis  Fri Apr 16 09:23:29  2021
+--------------------------------------------------------------------------------
+Index   vin             r1              r2              
+--------------------------------------------------------------------------------
+0	2.500000e-01	-6.24999e-02	1.874998e-01	
+
+
+Total analysis time (seconds) = 0
+
+Total elapsed time (seconds) = 0.004 
+
+Total DRAM available = 1982.750 MB.
+DRAM currently available =  704.184 MB.
+Maximum ngspice program size =   27.402 MB.
+Current ngspice program size =   11.523 MB.
+
+Shared ngspice pages =    9.914 MB.
+Text (code) pages =    5.207 MB.
+Stack = 0 bytes.
+Library pages =    1.965 MB.
+
